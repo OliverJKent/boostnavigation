@@ -4,6 +4,10 @@ moodle-local_boostnavigation
 Changes
 -------
 
+### Unreleased
+
+* 2019-02-06 - Check compatibility for Moodle 3.6, no functionality change.
+
 ### v3.5-r7
 
 * 2019-02-06 - Add the new custom node definition fields to the settings description.
