@@ -628,7 +628,7 @@ function local_boostnavigation_extend_navigation_course(navigation_node $navigat
 // SSU_AMEND START Only show the competencies menu node to users who can edit them
             global $COURSE, $USER;
             $course_context = context_module::instance($COURSE->id);
-            if (has_capability('moodle/course:manageactivities', $course_context)) {
+            if (has_capability('moodle/competency:coursecompetencymanage', $course_context)) {
               // Add the competencies node.
               $navigation->add_node($competenciesnode);
             }
